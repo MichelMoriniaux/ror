@@ -1,0 +1,77 @@
+[
+    {
+        "id": 0,
+        "name": "Action",
+        "pincfg": {
+            "pin": 27,
+            "pinfct": "OUTP",
+            "initval": 0
+        },
+        "canwrite": true,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "swfct": "MiPyPin",
+        "descr": "Roof relay activation pin"
+    },
+    {
+        "id": 1,
+        "name": "LIDAR",
+        "pincfg": {
+            "pin": 26,
+            "pinfct": "OUTP",
+            "initval": 0
+        },
+        "canwrite": true,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "swfct": "MiPyPin",
+        "descr": "Lidar relay activation pin"
+    },
+    {
+        "id": 2,
+        "name": "Open",
+        "pincfg": {
+            "pin": 32,
+            "pinfct": "INP",
+            "pull": "PULL_DOWN"
+        },
+        "canwrite": false,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "swfct": "MiPyPin",
+        "descr": "Open endstop"
+    },
+    {
+        "id": 3,
+        "name": "Closed",
+        "pincfg": {
+            "pin": 33,
+            "pinfct": "INP",
+            "pull": "PULL_DOWN"
+        },
+        "canwrite": false,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "swfct": "MiPyPin",
+        "descr": "Closed endstop"
+    },
+    {
+        "id": 4,
+        "name": "Button",
+        "pincfg": {
+            "pin": 25,
+            "pinfct": "INP",
+            "pull": "PULL_DOWN"
+        },
+        "canwrite": false,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "swfct": "MiPyPin",
+        "descr": "Button press"
+    }
+]
